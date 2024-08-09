@@ -48,9 +48,11 @@ To set up and run this project locally, follow these steps:
    git clone https://github.com/Shubambhardwaj/api-project.git
 
 2. Navigate to the Project Directory
+    ```bash
     cd api-project
 
 3. Install Dependencies
+    ```bash
     composer install
 
 4. Set Up the Environment
