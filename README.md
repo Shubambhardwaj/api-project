@@ -56,16 +56,21 @@ To set up and run this project locally, follow these steps:
     composer install
 
 4. Set Up the Environment
+    ```bash
     cp .env.example .env
 
 5. Configure the Database
+    ```bash
     Edit the .env file and set up your database connection
 
 6. Generate an Application Key
+    ```bash
     php artisan key:generate
 
 7. Run Migrations
+    ```bash
     php artisan migrate
 
 8. Serve the Application
+    ```bash
     php artisan serve
