@@ -46,3 +46,24 @@ To set up and run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Shubambhardwaj/api-project.git
+
+2. Navigate to the Project Directory
+    cd api-project
+
+3. Install Dependencies
+    composer install
+
+4. Set Up the Environment
+    cp .env.example .env
+
+5. Configure the Database
+    Edit the .env file and set up your database connection
+
+6. Generate an Application Key
+    php artisan key:generate
+
+7. Run Migrations
+    php artisan migrate
+
+8. Serve the Application
+    php artisan serve
